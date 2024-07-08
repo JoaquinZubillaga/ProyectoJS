@@ -13,7 +13,7 @@ function ajustarDecimales(numero){
     return numero.toLocaleString( 'es-UY', {minimumFractionDigits: 2 , maximumFractionDigits: 2})
 }
 
-function convertir(){
+function convertirgrados(){
     let opcion = prompt('Para convertir una unidad en celsius a fahrenheit, ingrese "1"\nPara convertir a kelvin, ingrese "2"')
     if(opcion === '1'){
         let celsius = parseFloat(prompt('Ingrese la cantidad de grados celsius para convertir en fahrenheit'))
@@ -36,4 +36,4 @@ function convertir(){
     }
 }
 
-convertir()
+convertirgrados()
